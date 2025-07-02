@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElevateOne Education</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #e9f3f4;
+      color: #1f4e5f;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      width: 60px;
+      margin-right: 15px;
+    }
+    .logo h1 {
+      font-size: 24px;
+      color: #f47422;
+    }
+    nav a {
+      text-decoration: none;
+      color: #1f4e5f;
+      margin-left: 30px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #f47422;
+    }
+    .hero {
+      padding: 80px 40px;
+      background: #cdebe9;
+      text-align: center;
+    }
+    .section {
+      padding: 80px 40px;
+      text-align: center;
+    }
+    #about {
+      background-color: #fdf7f2;
+    }
+    #programs {
+      background-color: #d7eff1;
+    }
+    #pricing {
+      background-color: #fff9f4;
+    }
+    #testimonials {
+      background-color: #f2f9f9;
+    }
+    #initiatives {
+      background-color: #eef6f8;
+    }
+    #tutors {
+      background-color: #f4f9fd;
+    }
+    #contact {
+      background-color: #ffffff;
+    }
+    h2 {
+      font-size: 42px;
+      color: #1f4e5f;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 32px;
+      color: #1f4e5f;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-size: 24px;
+      color: #f47422;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      color: #444;
+      max-width: 800px;
+      margin: 10px auto 30px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #1f4e5f;
+      color: #ffffff;
+    }
+    form {
+      max-width: 600px;
+      margin: auto;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #f47422;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    form button:hover {
+      background-color: #d95d13;
+    }
+    .pricing-table {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .price-box {
+      border: 2px solid #f47422;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      background: #fff;
+    }
+    .price-box h4 {
+      color: #1f4e5f;
+      margin-bottom: 10px;
+    }
+    .testimonial {
+      background-color: #ffffff;
+      padding: 20px;
+      border-left: 5px solid #f47422;
+      margin-bottom: 20px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .tutor-profile {
+      max-width: 800px;
+      margin: 30px auto;
+      text-align: left;
+      background: #ffffff;
+      padding: 20px;
+      border-left: 5px solid #1f4e5f;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="elevateone-logo.png" alt="ElevateOne Logo">
+      <h1>ElevateOne</h1>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#initiatives">Initiatives</a>
+      <a href="#tutors">Tutors</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Welcome to ElevateOne – Your Launchpad to HSC Maths Success</h2>
+    <p>At ElevateOne, we’re dedicated to empowering students across New South Wales to achieve excellence in HSC Mathematics. With expert tutors, proven strategies, and personalised support, we help every learner reach their full potential – whether you're aiming for a band 6 or trying to build confidence in the basics.</p>
+  </section>
+
+  <section class="section" id="about">
+    <h3>Why ElevateOne?</h3>
+    <p>We’re more than just tutors – we’re mentors on your HSC journey. Founded by high-achieving graduates and passionate educators, ElevateOne is built on a single vision: elevate every student to their highest level of success in Mathematics Advanced, Extension 1, and Extension 2. Our approach is data-driven, results-focused, and always student-first.</p>
+  </section>
+
+  <section class="section" id="programs">
+    <h3>Targeted HSC Maths Programs That Deliver</h3>
+    <p>Each course runs over 8 weeks with a 9th week for a topic test. Classes are capped at 15 students to ensure every learner gets personalised attention and that key weaknesses are acknowledged and worked upon by expert tutors.</p>
+  </section>
+
+  <section class="section" id="pricing">
+    <h3>Affordable Excellence in HSC Maths Tutoring</h3>
+    <div class="pricing-table">
+      <div class="price-box">
+        <h4>ElevateOne Group Tutoring</h4>
+        <p>$600 per term<br>Includes 8 lessons + 1 test week<br>Small group support (max 15)</p>
+      </div>
+      <div class="price-box">
+        <h4>1-on-1 Private Tutoring</h4>
+        <p>$1500+ per term<br>8 hours minimum at $100-200/hr<br>Limited access to shared resources</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <h3>Real Students. Real Results.</h3>
+    <div class="testimonial">
+      <p><strong>Amara T. (Year 12)</strong><br>“ElevateOne helped me go from average results to a Band 6 in Extension 1 – the tutors are amazing.”</p>
+    </div>
+    <div class="testimonial">
+      <p><strong>Liam C. (Year 11)</strong><br>“What I love is how organised and structured the sessions are. I actually look forward to maths class now.”</p>
+    </div>
+  </section>
+
+  <section class="section" id="initiatives">
+    <h3>Initiatives</h3>
+    <p>We run free trial HSC exams leading into trial season to support all students. It's completely free and open to everyone.</p>
+    <p>We believe in the power of education and community. The HSC requires the greatest echelon of teamwork. We stand by our motto: <strong>One team, one dream!</strong></p>
+  </section>
+
+  <section class="section" id="tutors">
+    <h3>Meet Our Tutors</h3>
+    <div class="tutor-profile">
+      <h4>Adam Kairis</h4>
+      <p><strong>Smith's Hill High School 2024 Graduate | ATAR 98.95</strong><br>
+      Specialising in Maths & Economics | Experienced Tutor for Years 7–12</p>
+      <p><strong>WHAT I OFFER YOU:</strong><br>
+      ↳ 1:1 Private Tutoring – Online (via Zoom) & In-Person (Wollongong region)<br>
+      - Personalised interactive lessons aligned with the NSW syllabus<br>
+      - A mix of concise notes and targeted exam practice questions to maximise marks<br>
+      - Individually tailored study plans using evidence-based strategies like spaced repetition and active recall<br>
+      - Goal setting & mindset mentorship<br>
+      - Access to an extensive past paper bank<br>
+      - Structured lessons with detailed feedback<br>
+      - On-demand question help</p>
+      <p><strong>Achievements:</strong><br>
+      HSC Marks: 95/100 in Mathematics Advanced, 46/50 in Mathematics Extension 1</p>
+    </div>
+
+    <div class="tutor-profile">
+      <h4>Deep Shah</h4>
+      <p><strong>Smith's Hill High School 2024 Graduate | ATAR 97.10</strong><br>
+      Specialising in Maths & Humanities | 5 Years Tutoring Experience for Years 7–12</p>
+      <p><strong>WHAT I OFFER YOU:</strong><br>
+      ↳ 1:1 Private Tutoring – Online (via Zoom) & In-Person (Wollongong region)<br>
+      - Personalised interactive lessons aligned with the NSW syllabus<br>
+      - A mix of concise notes and targeted exam practice questions to maximise marks<br>
+      - Individually tailored study plans using evidence-based strategies like spaced repetition and active recall<br>
+      - Goal setting & mindset mentorship<br>
+      - Access to an extensive past paper bank<br>
+      - Structured lessons with detailed feedback<br>
+      - On-demand question help</p>
+      <p><strong>Achievements:</strong><br>
+      HSC Marks: 90/100 in English Advanced, 46/50 in Mathematics Extension 1, 93/100 in Mathematics Advanced, 91/100 in Geography, 98/100 in Studies of Religion I<br>
+      School prefect 2019–22, debating and public speaking teams</p>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h3>Let’s Elevate Your Maths Game</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <h4>📅 Book a Free Trial Lesson</h4>
+    <p>Select a date and time that suits you:</p>
+    <iframe src="https://calendar.google.com/calendar/embed?src=your_calendar_link_here&ctz=Australia%2FSydney" style="position: relative; height: 600px;"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ElevateOne Education | info@elevateone.com.au</p>
+  </footer>
+</body>
+</html>
